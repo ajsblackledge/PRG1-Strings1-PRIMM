@@ -2,6 +2,7 @@ record = "Lovelace,Ada,1815,mathematician"
 
 parts = record.split(",")
 
+print(parts)
 surname = parts[0]
 forename = parts[1]
 born = parts[2]
